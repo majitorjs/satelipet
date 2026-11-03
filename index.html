@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satelipet | La señal que los trae de vuelta a casa</title>
+  <meta name="description" content="Placas de acero inoxidable con código QR y chip NFC para perros y gatos. Si se pierden, quien los encuentra escanea y te contacta.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <a href="#inicio" class="brand">
+      <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="18" r="12" fill="#F2B01E"/>
+        <circle cx="16" cy="9" r="2.6" fill="#F4F7F5"/>
+        <circle cx="16" cy="19" r="5" fill="none" stroke="#0E2A2B" stroke-width="2.4"/>
+      </svg>
+      <span>Satelipet</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#perfil">El perfil</a>
+      <a href="#productos">Productos</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#pedido" class="btn btn--dark btn--small">Pedir mi placa</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section id="inicio" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">Placas con QR y NFC para perros y gatos</p>
+          <h1>La señal que los trae de vuelta a casa.</h1>
+          <p class="lead">Si tu mascota se pierde, quien la encuentre escanea el código o acerca el celular a la placa y ve todos sus datos: quién es, cómo cuidarla y cómo contactarte. No necesita descargar ninguna app.</p>
+          <div class="actions">
+            <a href="#pedido" class="btn btn--dark">Pedir mi placa</a>
+            <a href="#como-funciona" class="btn btn--outline">Ver cómo funciona</a>
+          </div>
+          <ul class="chips">
+            <li>Sin batería</li>
+            <li>Sin app para quien escanea</li>
+            <li>Para perros y gatos</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="false">
+          <div class="halo"></div>
+          <div class="strap"><div class="strap__stitch"></div></div>
+          <div class="ring"></div>
+          <div class="tag">
+            <svg class="qr qr--hero" viewBox="-2 -2 25 25" role="img" aria-label="Código QR de ejemplo"><path fill="#0E2A2B" d=""/></svg>
+            <span class="tag__label">ESCANÉAME · TOCA</span>
+          </div>
+          <div class="scan-card">
+            <p class="mono-label">ASÍ LO VE QUIEN LO ENCUENTRA</p>
+            <p class="scan-card__name">Max</p>
+            <p class="scan-card__meta">Golden retriever · 4 años · Muy amistoso</p>
+            <span class="scan-card__call">Llamar a Laura</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="como-funciona" class="section section--mint">
+      <div class="container stack-lg">
+        <div class="section-head">
+          <p class="eyebrow">Cómo funciona</p>
+          <h2>Tres pasos y tu mascota tiene una identificación que habla por ella.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <div class="step__top">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0E2A2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9z"/><path d="M8.5 12h7M8.5 16h5"/></svg>
+              <span class="step__num" aria-hidden="true">1</span>
+            </div>
+            <h3>Registras a tu mascota</h3>
+            <p>Cargas su foto, raza, vacunas, alergias y tus teléfonos de contacto en su perfil web.</p>
+          </li>
+          <li class="step">
+            <div class="step__top">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0E2A2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="14" r="7"/><circle cx="12" cy="9.5" r="1.2"/><path d="M12 7V3"/></svg>
+              <span class="step__num" aria-hidden="true">2</span>
+            </div>
+            <h3>Le pones la placa</h3>
+            <p>La cuelgas del collar. No lleva batería ni hay que cargarla.</p>
+          </li>
+          <li class="step">
+            <div class="step__top">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0E2A2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M9.5 8V7h1M14.5 8V7h-1M9.5 16v1h1M14.5 16v1h-1"/></svg>
+              <span class="step__num" aria-hidden="true">3</span>
+            </div>
+            <h3>Quien la encuentra escanea</h3>
+            <p>Con la cámara lee el QR, o acerca el celular a la placa NFC. Se abre su perfil y puede llamarte o escribirte por WhatsApp.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PERFIL -->
+    <section id="perfil" class="section section--dark">
+      <div class="container profile">
+        <div class="profile__text">
+          <p class="eyebrow eyebrow--brass">El perfil</p>
+          <h2>Un escaneo y ven todo lo que necesitan saber.</h2>
+          <p class="profile__lead">Tú decides qué se muestra. Puedes actualizarlo cuando quieras y la placa sigue funcionando igual.</p>
+          <ul class="checks">
+            <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B01E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Nombre, foto, raza, tamaño y color</span></li>
+            <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B01E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Vacunas, alergias y medicación</span></li>
+            <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B01E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Notas de comportamiento, como «es tímido con extraños»</span></li>
+            <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B01E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Uno o dos teléfonos de contacto</span></li>
+            <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F2B01E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Tu veterinario de confianza</span></li>
+          </ul>
+        </div>
+
+        <div class="profile__phone">
+          <div class="phone">
+            <div class="phone__screen">
+              <div class="phone__url"><span>[tudominio]/max</span></div>
+              <p class="phone__alert">Si encontraste a Max, gracias. Su familia lo está buscando.</p>
+              <div class="phone__who">
+                <span class="avatar" aria-hidden="true">M</span>
+                <div>
+                  <p class="phone__name">Max</p>
+                  <p class="phone__breed">Golden retriever · Macho · 4 años</p>
+                </div>
+              </div>
+              <dl class="phone__data">
+                <div><dt>TAMAÑO Y COLOR</dt><dd>Grande · Dorado</dd></div>
+                <div><dt>SALUD</dt><dd>Vacunas al día · Alérgico al pollo</dd></div>
+                <div><dt>NOTAS</dt><dd>Muy amistoso. Responde a su nombre.</dd></div>
+                <div><dt>SU DUEÑA</dt><dd>Laura · +57 300 000 0000</dd></div>
+              </dl>
+              <div class="phone__buttons">
+                <span class="phone__btn phone__btn--solid">Llamar</span>
+                <span class="phone__btn phone__btn--line">WhatsApp</span>
+              </div>
+              <p class="phone__note">Perfil de ejemplo con datos inventados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="section">
+      <div class="container stack-lg">
+        <div class="section-head">
+          <p class="eyebrow">Productos</p>
+          <h2>Elige cómo quieres protegerla.</h2>
+        </div>
+
+        <div class="cards">
+
+          <article class="card">
+            <div class="card__visual">
+              <div class="coin"><svg class="qr" viewBox="-2 -2 25 25" aria-hidden="true"><path fill="#0E2A2B" d=""/></svg></div>
+            </div>
+            <h3>Placa QR</h3>
+            <p class="card__desc">La opción esencial: un código QR grabado en una placa para el collar.</p>
+            <ul class="bullets">
+              <li>Lo lee la cámara de cualquier celular</li>
+              <li>Acero inoxidable de alta resistencia</li>
+              <li>Grabado láser permanente</li>
+              <li>Talla S: gatos y perros, 2,5 cm de diámetro</li>
+              <li>Talla M/L: perros medianos y grandes, 3,5 cm de diámetro</li>
+            </ul>
+            <div class="card__buy">
+              <p class="price">$ 35.000 <small>+ envío</small></p>
+              <a href="#pedido" class="btn btn--outline btn--small">Pedir</a>
+            </div>
+          </article>
+
+          <article class="card card--featured">
+            <span class="badge">RECOMENDADA</span>
+            <div class="card__visual">
+              <div class="coin"><svg class="qr" viewBox="-2 -2 25 25" aria-hidden="true"><path fill="#0E2A2B" d=""/></svg></div>
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#1F6F66" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 8a6 6 0 010 8"/><path d="M12 5a10 10 0 010 14"/><path d="M16 3a14 14 0 010 18"/></svg>
+            </div>
+            <h3>Placa NFC + QR</h3>
+            <p class="card__desc">Dos formas de leerla en la misma placa. La más práctica para quien la encuentra.</p>
+            <ul class="bullets">
+              <li>Acercar el celular (NFC) o escanear el QR</li>
+              <li>Acero inoxidable de alta resistencia</li>
+              <li>Grabado láser permanente</li>
+              <li>Talla S: gatos y perros, 2,5 cm de diámetro</li>
+              <li>Talla M/L: perros medianos y grandes, 3,5 cm de diámetro</li>
+            </ul>
+            <div class="card__buy">
+              <p class="price">$ [PRECIO]</p>
+              <a href="#pedido" class="btn btn--dark btn--small">Pedir</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__visual">
+              <div class="collar">
+                <div class="collar__band"><div class="collar__stitch"></div></div>
+                <div class="collar__tag"><svg class="qr" viewBox="-2 -2 25 25" aria-hidden="true"><path fill="#0E2A2B" d=""/></svg></div>
+              </div>
+            </div>
+            <h3>Collar con placa</h3>
+            <p class="card__desc">Collar ajustable que ya incluye la placa NFC + QR. Listo para usar.</p>
+            <ul class="bullets">
+              <li>Placa NFC + QR incluida</li>
+              <li>Tallas: [XS · S · M · L]</li>
+              <li>Colores: [COLORES]</li>
+            </ul>
+            <div class="card__buy">
+              <p class="price">$ [PRECIO]</p>
+              <a href="#pedido" class="btn btn--outline btn--small">Pedir</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS -->
+    <section id="preguntas" class="section section--mint">
+      <div class="container faq">
+        <div class="faq__head">
+          <p class="eyebrow">Preguntas</p>
+          <h2>Lo que más nos preguntan.</h2>
+        </div>
+        <div class="faq__list">
+          <details open>
+            <summary>¿La placa funciona como GPS?</summary>
+            <p>No. La placa no rastrea ni emite ubicación. Sirve para que quien encuentre a tu mascota pueda identificarla y contactarte. Si quieres seguirla en tiempo real, necesitas un dispositivo GPS aparte.</p>
+          </details>
+          <details>
+            <summary>¿Quien la encuentra necesita una app?</summary>
+            <p>No. Al escanear el QR o tocar la placa NFC, el perfil se abre en el navegador del celular.</p>
+          </details>
+          <details>
+            <summary>¿Y si su celular no tiene NFC?</summary>
+            <p>Usa el QR con la cámara. Por eso la placa NFC también trae el código QR.</p>
+          </details>
+          <details>
+            <summary>¿Lleva batería?</summary>
+            <p>No. El QR es un código grabado y el chip NFC se activa cuando alguien acerca el celular.</p>
+          </details>
+          <details>
+            <summary>¿Puedo cambiar mis datos de contacto?</summary>
+            <p>Sí. Editas el perfil y la misma placa sigue funcionando, sin comprar otra.</p>
+          </details>
+          <details>
+            <summary>¿Sirve para gatos?</summary>
+            <p>Sí. La talla S, de 2,5 cm de diámetro, es para gatos y perros. La talla M/L, de 3,5 cm, es para perros medianos y grandes.</p>
+          </details>
+          <details>
+            <summary>¿Cuánto tarda el envío?</summary>
+            <p>De 2 a 4 días hábiles a ciudades principales y de 4 a 8 días al resto del país. El costo del envío se suma al precio: [COSTO DE ENVÍO].</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEDIDO -->
+    <section id="pedido" class="order">
+      <div class="container order__grid">
+        <div class="order__text">
+          <h2>Pide la placa de tu mascota hoy.</h2>
+          <p>Escríbenos por WhatsApp con el nombre de tu mascota y el modelo que quieres. Te ayudamos a armar su perfil.</p>
+        </div>
+        <div class="order__cta">
+          <!-- Cambia 57XXXXXXXXXX por tu número con indicativo, sin + ni espacios. Ejemplo: 573001234567 -->
+          <a href="https://wa.me/57XXXXXXXXXX?text=Hola%2C%20quiero%20pedir%20una%20placa%20Satelipet" class="btn btn--dark btn--large" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <p class="mono">WhatsApp: [TU NÚMERO]</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <p class="footer__brand">Satelipet</p>
+      <p>[CIUDAD], Colombia · Instagram [@TU_USUARIO]</p>
+      <p>© <span id="year">2026</span> Satelipet</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
